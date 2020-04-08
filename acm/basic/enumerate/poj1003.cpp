@@ -15,9 +15,11 @@ using namespace std;
 
 const int MAXN = 600;
 
+double a[MAXN];
+
 int main()
 {
-    double sum = 0, a[MAXN];
+    double sum = 0;
     for (int i = 0; i < MAXN; i++) {
         sum += 1.0 / (i + 2);
         a[i] = sum;
