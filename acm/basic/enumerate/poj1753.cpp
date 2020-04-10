@@ -7,7 +7,7 @@
  * name   : Flip Game
  * url    : http://poj.org/problem?id=1753
  * level  : 2
- * tag    : 枚举, 搜索, 位运算
+ * tag    : 枚举, 搜索
  */
 
 #include <iostream>
