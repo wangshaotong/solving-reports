@@ -78,13 +78,15 @@ int main()
 {
     int n;
     cin >> n;
+    cout << n << endl;
     for (int i = 0; i < n; i++) {
         int days;
 
-        string dot, haabMonth;
+        char dot;
+        string haabMonth;
         int haabDay, haabYear;
         cin >> haabDay >> dot >> haabMonth >> haabYear;
-        days = haabDay + (getMonth(haabMonth)-1)*20 + haabYear * 365;
+        days = haabDay + getMonth(haabMonth) + haabYear * 365;
 
         string tzolkinDay;
         string tzolkinDayNames[] = {
